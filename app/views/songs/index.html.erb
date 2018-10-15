@@ -1,7 +1,7 @@
 <ul>
 <% @songs.each do |song| %>
   <%= song.title %>
-    <%= song.display_artist(song) %>
+    <%= display_artist(song) %>
   <% end %>
 </ul>
 <br>
