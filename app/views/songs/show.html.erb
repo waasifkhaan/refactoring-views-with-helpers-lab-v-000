@@ -3,7 +3,7 @@
 <% if @song.artist %>
 <%= link_to @song.artist_name, artist_path(@song.artist) %>
 <%else%>
-<%=link_to 'Add artist to song', edit_song(@song) %>
+<%= link_to 'Add artist to song', edit_song(@song) %>
 <% end %>
 
 <%= link_to "All Songs", songs_path %>
