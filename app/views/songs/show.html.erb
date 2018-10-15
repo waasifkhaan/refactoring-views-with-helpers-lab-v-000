@@ -1,6 +1,4 @@
 <h1><%= link_to @song.title, song_path(@song) %></h1>
 <%binding.pry%>
-<% @song.artists.each do |artist|%>
-<h1><%= link_to artist.name, artist_path(artist) %></h1>
-<% end %>
+
 <%= link_to "All Songs", songs_path %>
