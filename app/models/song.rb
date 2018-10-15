@@ -11,7 +11,7 @@ class Song < ActiveRecord::Base
     binding.pry
     artist = Artist.find_or_create(name: name)
       self.artist = artist 
-    end 
+    
   end 
 
 end
