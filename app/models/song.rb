@@ -4,7 +4,6 @@ class Song < ActiveRecord::Base
   def artist_name
     if self.artist
       self.artist.name
-    else 
     end 
   end
 
