@@ -1,13 +1,16 @@
 module SongsHelper
   
-   def name
+    def artist_name
     self.artist.name
   end
 
-  def name=(name)
-    self.artist.name = name 
-    
+  def artist_name=(name)
+    if self.artist
+      self.artist.name = name
+    else 
+    end 
   end 
+
  
   
 end
