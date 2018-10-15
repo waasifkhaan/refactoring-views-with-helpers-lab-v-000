@@ -6,8 +6,8 @@ class Song < ActiveRecord::Base
   end
 
   def artist_name=(name)
-    self.artist.name = name 
     binding.pry
+    self.artist.name = name 
   end 
 
 end
