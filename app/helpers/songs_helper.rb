@@ -4,7 +4,7 @@ module SongsHelper
     self.artist.name
   end
 
-  def artist_name=(name)
+  def name=(name)
     self.artist.name = name 
     
   end 
